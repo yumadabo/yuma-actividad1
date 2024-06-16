@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" crossorigin="anonymous">
+		
+    <link rel="stylesheet" href="css/styles.css">
+   
+    <title>Formulario</title>
+</head>
+<body>
+    <div id="contenedor">  
+        <h1>Formulario de Contacto</h1>
+        <div id="contenedor2">
+            <div class="icon">
+                <ul>
+                    <li>
+                        <span>
+                           <!-- <i class="fa fa-arrow-alt-circle-right fa-spin"></i> -->   
+                            <i class="fa fa-arrow-alt-circle-right" onclick="Alertai()"></i>  
+                        </span>
+                    </li>
+                </ul>
+            </div>
+        </div> 
+        <div id="contenedor1">
+            <div>
+                <form action="guardar.php" methodo="post">
+                    <table>
+                        <tr>
+                            <td>
+                                <label form="Nombre">Nombre</label>
+                                <input type="text"name="Nombre" id="Nombre">
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <label form="Email">Email</label>
+                                <input type="Email"name="Email" id="Email">
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <label form="fecha">Fecha de Nacimiento</label>
+                                <input type="date"name="fecha" id="fecha">
+                            </td>
+                        </tr>
+                        
+                        <tr>
+                            <td>
+                            <label form="Ciudad">Ciudad</label>
+                                <select name="" id="Ciudad">
+                                    <option value="1">Port Charlotte</option>
+                                    <option value="2">Fort Myers</option>
+                                    <option value="3">Miami</option>
+                                </select>    
+                            </td>
+                        </tr>
+                        
+                        <tr>
+                            <td>
+                                <label form="telefono">Telefono</label>
+                                <input type="tel"name="telefono id="telefono">
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <button class="button" onclick="Alerta()">Aceptar</button>
+                                
+                            </td>
+                        </tr>
+                   </table>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="../formulario/js/main.js">
+
+    </script>
+</body>
+</html>
